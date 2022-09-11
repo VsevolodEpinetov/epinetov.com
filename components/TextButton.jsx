@@ -20,7 +20,6 @@ const TextButton = ( {text, sendMessages, setButtons, buttons, disableFields} ) 
     switch (pressedButton) {
       case 'Кто ты?':
         copy.push('Откуда ты?')
-        copy.push('А у тебя есть резюме?')
       break;
 
       case 'Откуда ты?':
