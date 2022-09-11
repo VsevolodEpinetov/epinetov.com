@@ -61,6 +61,7 @@ const TextBar = ({ setHeight, setNewMessages, newMessages, disableFields }) => {
   const chatElement = useRef(null);
 
   const sendMessages = (text = userText) => {
+    console.log(text);
     const messagesToAdd = getMessages(text)
     const newArray = newMessages.concat(messagesToAdd);
 
@@ -142,7 +143,7 @@ const TextBar = ({ setHeight, setNewMessages, newMessages, disableFields }) => {
             compact
             disabled={sendButtonIsDisabled ? true : false}
             className={classes.sendButton}
-            onClick={sendMessages}
+            onClick={() => sendMessages()}
           />
         }
       />
