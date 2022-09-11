@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Montserrat+Alternates:wght@300;400;600&family=Roboto:wght@400;700&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+div[class^="link"] {
+  font-size: 1rem;
+}
+
+.link-title, .link-subtitle {
+  font-weight: 800;
+}
+
+.link-wrapper {
+  border-left: #000 3px solid;
+  margin: 15px 0 10px 0;
+  padding: 7px 2px 5px 0;
+}
+
+.link-wrapper p {
+  margin: 5px;
+  padding: 0;
+}
+
+.link-title {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.project-image {
+  width: 100%;
+}

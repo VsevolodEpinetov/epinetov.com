@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@mantine/core": "^5.0.2",
+    "@mantine/hooks": "^5.0.2",
+    "@tabler/icons": "^1.91.0",
+    "next": "^12.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  }
+}
